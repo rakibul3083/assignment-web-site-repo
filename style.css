@@ -298,7 +298,7 @@ nav ul li a{
     width:500px;
     
     background-color: #fff;
-    padding: 27px 40px;
+    padding: 26px 30px;
     border: none;
     outline: none;
     position: relative;    
@@ -309,16 +309,13 @@ nav ul li a{
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    padding: 27px 40px;
+    padding: 25px 27px;
     border: none;
     outline: none;
    position: absolute;
    margin-left: -1px; 
 }
  
- .input-area{
- 
- }
 /*footer section*/
 
 .footer-main-div{
@@ -348,10 +345,9 @@ nav ul li a{
     line-height: 50px;
     color: rgba(107, 114, 128, 1);
 }
-.right-footer{
-    display: flex;
-    gap: 24px;
-}
+ .right-footer img{
+    margin-right: 24px;
+ }
  
 
 
@@ -420,12 +416,12 @@ nav ul li a{
     }
     .colorful-title input{
         width: 50%;
-        margin-left: 25px; 
+        
     }
     .colorful-title{
         width: 100%;
         height: auto;
-        top: 25%;
+        top: 50%;
         align-items: center;
     }
     .footer-main-div{
