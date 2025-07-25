@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*header section*/
+.main-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.nav{
+ display: flex;
+ align-items: center;
+ 
+}
+.cart{
+    margin-left: 94px;
+}
+   
+nav ul{
+    display: flex;
+    gap: 94px; 
+}
+nav ul li{
+    list-style: none;
+   
+}
+nav ul li a{
+    text-decoration: none;
+}
+#gray{
+  color: #8987A1;
+}
+.cart a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    padding: 5px;
+}
+.banner-design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    
+}
+.banner-title{
+    margin-top: 132px;  
+     
+    
+}
+.banner-title h2{
+    font-size: 4.06rem;
+    font-weight: bold;
+    color: #000000;
+}
+.banner-title span{
+    color: #E95A08;
+}
+.banner-title p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.37rem;
+    font-weight: 500;
+}
+
+/*our plans*/
+
+.our-plants{
+    margin-top: 120px;
+}
+.plants-title{
+    text-align: center;
+    align-items: center;
+}
+.plants-title h2{
+    font-size: 3.12rem;
+    font-weight: bold;
+    color: #000000;
+}
+.plants-title span{
+    color: #E95A08;
+}
+.plants-title p{
+     color: rgba(0, 0, 0, 0.5);
+    font-size: 1.37rem;
+    font-weight: 500;
+}
+.flowers-item{
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   row-gap: 30px;
+}
+
+.flowers-card{
+    max-width: 270px;
+}
+
+.flowers-about{
+    margin-top: 30px;
+    
+}
+.flowers-about h3{
+    font-size: 1.37rem;
+    color: #111111;
+    font-weight: 500;
+     text-align: center;
+     padding: 3px;
+}
+.flowers-about p{
+    background-color: #E95A08;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 26px 50px;
+    text-align: center;
+    margin-top: 10px; 
+    
+}
+
+/*flower plants lover*/
+
+.plants-lover{
+   margin-bottom: 133px;
+}
+.flowers-discription{
+    display: flex;
+    gap: 60px;
+     
+}
+.badge{
+    margin-left: 348px;
+    margin-bottom: -180px;
+    position: relative;
+    margin-top: 83px;
+     
+ 
+}
+ 
+.discribtion{
+    padding: 38px 0px;
+}
+    
+.discribtion h2{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+}
+.discribtion ul{
+   
+}
+.discribtion ul li{
+    font-size: 1.375rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px
+}
+/*letest deals*/
+.leatest-deals{
+     
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.deals-title{
+    text-align: center;
+}
+.deals-title h1{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+}
+.deals-title span{
+   color:#E95A08;
+}
+.deals-title p{
+    font-size: 1.37rem;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.5); 
+}
+.deals-flowers{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 120px;
+}
+.discount-card,.discount-card-2 {
+   width: 367px;
+   height: 202px;
+   background: rgba(0, 0 , 0, 0.5);
+   background-blend-mode: darken;
+   background-image: url(img/deal-bloom.png); 
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   position: relative;
+ 
+}
+.double-img{
+    display: grid;
+    row-gap: 20px;
+}
+ .single-img{
+   background: rgba(0, 0 , 0, 0.5);
+   background-blend-mode: darken;
+   background-image: url(img/deal-zabo.png); 
+   width: 753px;
+   height: 423px;
+   background-repeat: no-repeat;
+   position: relative;
+ }
+.title-wrap{
+     position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+     
+   
+
+}
+ .discount-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+   
+ }
+ .discount-card a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    
+ }
+ 
+ .single-img-title{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+ }
+ .single-img-title h3{
+     font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+ }
+ .single-img-title a{
+    font-size: 1.75rem;
+   font-weight: 600;
+   color: #fff;
+ }
+/*Join the colorful Bunch*/
+.colorful-bunch{
+   background: rgba(0, 0 , 0, 0.5);
+   background-blend-mode: darken;
+   background-image: url(img/news-letter-bg.png); 
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   position: relative;
+   background-size: cover;
+   width: 100%;
+   height: 533px;
+   margin-top: 133px;
+}
+.colorful-title{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+
+}
+.colorful-bunch h1{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #fff;
+}
+.colorful-bunch input{
+    width: 644px;
+    height: 50px;
+    background-color: #fff;
+    padding: 8px 20px;
+    border: none;
+     
+}
+.colorful-bunch button{
+    background-color: #E95A08;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 26px 50px;
+    border: none;
+    
+}
+
+
+/*responsive media query*/
+
+@media screen and (max-width:576px){
+    nav{
+         display: none;
+    }
+    .menubar{
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .banner-design{
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+        padding: 10px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .plants-lover{
+        padding: 10px;
+    }
+    .flowers-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 10px;
+    }
+    .flowers-card img{
+        width: 100%;
+    }
+    .flowers-discription{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-section img{
+        width: 100%;
+    }
+    .badge{
+        display: none;
+    }
+     
+}
+
