@@ -11,7 +11,9 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+body{
+    overflow-x: hidden;
+}
 /*header section*/
 .main-container{
     max-width: 1140px;
@@ -266,7 +268,7 @@ nav ul li a{
  }
 /*Join the colorful Bunch*/
 .colorful-bunch{
-   background: rgba(0, 0 , 0, 0.5);
+   background: rgba(3, 110, 147);
    background-blend-mode: darken;
    background-image: url(img/news-letter-bg.png); 
    border-radius: 10px;
@@ -278,12 +280,11 @@ nav ul li a{
    margin-top: 133px;
 }
 .colorful-title{
-      position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    height: auto;
-      
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
    
 
 }
@@ -294,10 +295,10 @@ nav ul li a{
     margin-bottom: 23px;
 }
 .colorful-title input{
-   width:600px;
+    width:500px;
     
     background-color: #fff;
-    padding: 27px 0px;
+    padding: 27px 40px;
     border: none;
     outline: none;
     position: relative;    
@@ -308,23 +309,16 @@ nav ul li a{
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    padding: 26px 50px;
+    padding: 27px 40px;
     border: none;
     outline: none;
    position: absolute;
-   margin-left: -1px;
-  
-    
+   margin-left: -1px; 
 }
  
+ .input-area{
  
- 
- 
- 
-
- 
-
- 
+ }
 /*footer section*/
 
 .footer-main-div{
@@ -340,7 +334,7 @@ nav ul li a{
      
 }
 .left-footer{
-    width: 359px;
+    max-width: 359px;
 }
 .left-footer p{
     font-size: 1.75rem;
@@ -354,9 +348,11 @@ nav ul li a{
     line-height: 50px;
     color: rgba(107, 114, 128, 1);
 }
-.right-footer img{
-    margin-right: 24px;
+.right-footer{
+    display: flex;
+    gap: 24px;
 }
+ 
 
 
 /*responsive media query*/
@@ -415,15 +411,16 @@ nav ul li a{
     .single-img{
         width: 100%;
         margin-top: 20px;
+        max-height: 423px;
     }
     .colorful-bunch{
         width: 100%;
-        max-height:533px;
+         
         
     }
     .colorful-title input{
         width: 50%;
-        margin-left: -45%;
+        margin-left: 25px; 
     }
     .colorful-title{
         width: 100%;
@@ -432,12 +429,12 @@ nav ul li a{
         align-items: center;
     }
     .footer-main-div{
-        
+        padding: 10px;
     }
     .sub-main-div{
         flex-direction: column;
-        padding-bottom: 20px;
-        padding: 10px;
+        padding-bottom: 30px;
+      
     }.discount-card{
         width: 100%;
     }
