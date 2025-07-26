@@ -165,9 +165,7 @@ nav ul li a{
     font-weight: bold;
     color: #000000;
 }
-.discribtion ul{
-   
-}
+ 
 .discribtion ul li{
     font-size: 1.375rem;
     font-weight: bold;
@@ -227,7 +225,7 @@ nav ul li a{
  }
 .title-wrap{
      position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     text-align: center;
     height: auto;
@@ -251,7 +249,7 @@ nav ul li a{
  
  .single-img-title{
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     text-align: center;
     height: auto;
@@ -267,54 +265,50 @@ nav ul li a{
    color: #fff;
  }
 /*Join the colorful Bunch*/
-.colorful-bunch{
+ .colorful-title{
    background: rgba(3, 110, 147);
-   background-blend-mode: darken;
-   background-image: url(img/news-letter-bg.png); 
-   border-radius: 10px;
-   background-repeat: no-repeat;
-   position: relative;
-   background-size: cover;
-   width: 100%;
-   height: 500px;
-   margin-top: 133px;
+    position: relative;  
+    text-align: center;
+    margin-top: 133px;
+   
+ }
+.colorful-title img{
+      
+    
 }
-.colorful-title{
-  margin: 0;
+.input-area{
+  
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-   
-
 }
-.colorful-title h1{
+.input-area h1{
     font-size: 3.125rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 23px;
 }
-.colorful-title input{
-    width:500px;
-    
-    background-color: #fff;
-    padding: 26px 30px;
+.input-area input{
+    width: 500px;
+    padding: 20px 8px;
     border: none;
     outline: none;
-    position: relative;    
+    position: relative;
 }
- 
-.colorful-title button{
-    background-color: #E95A08;
+.input-area button{
     font-size: 1rem;
-    font-weight: bold;
-    color: #fff;
-    padding: 25px 27px;
+    color:#fff;
+    font-weight: 500;
+    background-color: #E95A08;
+    padding: 18px 25px;
     border: none;
     outline: none;
-   position: absolute;
-   margin-left: -1px; 
+    position: absolute;
 }
+
+
+ 
  
 /*footer section*/
 
@@ -407,23 +401,23 @@ nav ul li a{
     .single-img{
         width: 100%;
         margin-top: 20px;
-        max-height: 423px;
-    }
-    .colorful-bunch{
-        width: 100%;
+        height: 202px;
+        border-radius: 10px;
          
-        
     }
-    .colorful-title input{
-        width: 50%;
-        
+     
+    .colorful-title img{
+        width: 100%;
+        height: 400px;
+    }
+    .input-area input {
+        margin-left: -120px;
+        width: 100%;
     }
     .colorful-title{
         width: 100%;
-        height: auto;
-        top: 50%;
-        align-items: center;
     }
+   
     .footer-main-div{
         padding: 10px;
     }
@@ -437,7 +431,14 @@ nav ul li a{
     .sub-main-div{
         width: 100%;
     }
-    
+    .discribtion ul{
+        margin: 15px;
+        padding: 15px;
+    }
+    .title-wrap{
+         
+    }
+      
      
      
 }
