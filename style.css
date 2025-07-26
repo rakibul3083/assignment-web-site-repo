@@ -435,10 +435,9 @@ nav ul li a{
         margin: 15px;
         padding: 15px;
     }
-    .title-wrap{
-         
-    }
-      
+     .single-img-title{
+        top: 20%;
+     }
      
      
 }
